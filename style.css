@@ -91,3 +91,26 @@ th {
     height: 300px;
 
 }
+
+/* Configuração para computador */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Configuração para celulares */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+}
